@@ -1,0 +1,12 @@
+let inputMoney;
+let inputYear;
+let inputInterestRate;
+inputMoney = prompt("Nhập tiền vốn - money ");
+inputYear = prompt("Nhập số năm - year");
+inputInterestRate = prompt("Nhập tiền lãi - interestRate");
+let money = parseFloat(inputMoney);
+let year = parseFloat(inputYear);
+let interestRate = parseFloat(inputInterestRate);
+let total = money + year * (money * interestRate / 100);
+alert("Tổng tiền cả gốc lẫn lãi là: " + total);
+document.write("Tổng tiền cả gốc lẫn lãi là: " + total);
